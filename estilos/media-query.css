@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to left,#5e574a, #A6A6A6 );
+        animation: bg 15s ease infinite;
+        background-size: 300% 300%;
+
+        
+    }
+
+    @keyframes bg {
+        0%{
+            background-position: 0% 30%;
+        }
+        50%{
+            background-position: 100% 100%
+        }
+        100%{
+            background-position: 0% 30%;
+        }
+            
+    }
+
+    .Login{
+        
+        width: 80vw;
+        
+    }
+
+    .imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .formulario{
+        float: right;
+        width: 70%;
+
+    }
+
+    .formulario > p {
+        text-align: center;
+    }
+
+    .formulario > form{
+        transform: translateY(40px);
+    }
+
+    .campo{
+    display: block;
+    width: 42%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+}
+
+
+@media screen and (min-width:992px) {
+
+    body{
+        background-image: linear-gradient(to left,#5e574a, #A6A6A6 );
+        animation: bg 15s ease infinite;
+        background-size: 300% 300%;
+    }
+
+    @keyframes bg {
+        0%{
+            background-position: 0% 30%;
+        }
+        50%{
+            background-position: 100% 100%
+        }
+        100%{
+            background-position: 0% 30%;
+        }
+            
+    }
+    .Login{
+        width: 990px;
+    }
+
+    .imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    
+    .formulario{
+        float: left;
+        width: 55%;
+    }
+    .formulario > h1{
+        font-size: 2em;
+    }
+
+    .formulario > form{
+        transform: translateY(40px);
+    }
+
+    .formulario > p{
+        font-size: 1.2em;
+        text-align: center;
+        
+    }
+
+    .campo{
+    display: block;
+    width: 35%;
+    margin: auto;
+    margin-top: 15px;
+}
+}
